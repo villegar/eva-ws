@@ -23,6 +23,11 @@ mvnw clean package -pl '!dgva-server'
 ```
 
 4. Testing
+  + Windows
 ```sh
-mvnw test
+mvnw test -pl "!dgva-server"
+```
+  + Linux (Unix?)
+```sh
+mvnw test -pl '!dgva-server'
 ```
